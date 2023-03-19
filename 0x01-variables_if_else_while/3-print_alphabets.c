@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet in lawercase
+ * main - Prints the alphabet in lawercase then in uppercase
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char alp[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alp[26] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i;
 for (i = 0; i < 26; i++)
 {
