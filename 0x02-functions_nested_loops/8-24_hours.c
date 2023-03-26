@@ -21,6 +21,9 @@ for (d = 0; d <= 9; d++)
 if (a == 2 && b == 4)
 {
 a = 4;
+b = 10;
+c = 10;
+d = 10;
 continue;
 }
 _putchar('0' + a);
