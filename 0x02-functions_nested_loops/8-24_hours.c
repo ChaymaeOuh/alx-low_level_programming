@@ -19,7 +19,10 @@ for (c = 0; c <= 5; c++)
 for (d = 0; d <= 9; d++)
 {
 if (a == 2 && b == 4)
+{
+a = 4;
 continue;
+}
 _putchar('0' + a);
 _putchar('0' + b);
 _putchar(':');
