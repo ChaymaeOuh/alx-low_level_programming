@@ -13,10 +13,9 @@ if (i >= n)
 {
 printf("%d", i);
 if (i != 98)
-{
+break;
 _putchar(',');
 _putchar(' ');
-}
 }
 }
 _putchar('\n');
