@@ -25,5 +25,5 @@ if (i != 98)
 printf(", ");
 }
 }
-_putchar('\n');
+printf("\n");
 }
