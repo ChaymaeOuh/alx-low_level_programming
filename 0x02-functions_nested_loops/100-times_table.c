@@ -8,12 +8,18 @@ void print_times_table(int n)
 {
 if (n >= 0 && n <= 15)
 {
-int i, j;
+int i, j, p;
 for (i = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 {
-printf("%d", i * j);
+p = i * j;
+if (p <= 9)
+printf("  %d", p);
+else if (p <= 99)
+printf(" %d", p);
+else
+printf("%d", p);
 if (j != n)
 printf(", ");
 }
