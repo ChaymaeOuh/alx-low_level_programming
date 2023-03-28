@@ -14,7 +14,7 @@ for (i = 0; i <= n; i++)
 for (j = 0; j <= n; j++)
 {
 p = i * j;
-if (i == 0)
+if (j == 0)
 printf("%d", p);
 else if (p <= 9)
 printf("  %d", p);
