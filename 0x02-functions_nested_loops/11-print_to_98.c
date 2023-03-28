@@ -10,11 +10,13 @@ int i;
 for (i = 0; i <= 98; i++)
 {
 if (i >= n)
+{
 printf("%d", i);
 if (i != 98)
 {
 _putchar(',');
 _putchar(' ');
+}
 }
 }
 _putchar('\n');
