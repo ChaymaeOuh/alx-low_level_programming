@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * main - computes the sum of all multiples of 3 or 5
+ *
+ * Return: Always 0
  */
-void main(void)
+int main(void)
 {
 int i, sum;
 sum = 0;
@@ -12,4 +14,5 @@ if ((i % 3 == 0) || (i % 5 == 0))
 sum += i;
 }
 printf("%d\n", sum);
+return (0);
 }
