@@ -14,11 +14,11 @@ else
 {
 for (i = 0; i < size; i++)
 {
-for (j = size - x; j > 1; j--)
+for (j = size - i; j > 1; j--)
 {
 _putchar(' ');
 }
-for (z = 0; z <= x; z++)
+for (z = 0; z <= i; z++)
 {
 _putchar('#');
 }
