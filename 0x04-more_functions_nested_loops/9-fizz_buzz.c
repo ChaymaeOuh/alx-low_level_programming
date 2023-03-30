@@ -2,8 +2,9 @@
 
 /**
  * main - print numbers from 1 to 100
+ * Return: Always 0
  */
-void main(void)
+int main(void)
 {
 int i;
 for (i = 0; i <= 100; i++)
@@ -20,4 +21,6 @@ if (i != 100)
 printf(" ");
 }
 printf("\n");
+return (0);
 }
+
