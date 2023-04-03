@@ -13,7 +13,7 @@ for (i = 0; i < 1000; i++)
 {
 if (*(str + i) != '\0')
 {
-_putchar(*(str + i) + '0');
+_putchar('(*(str + i))');
 }
 else
 {
