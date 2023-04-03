@@ -9,11 +9,13 @@
 void _puts(char *str)
 {
 int i;
+char c;
 for (i = 0; i < 1000; i++)
 {
-if (*(str + i) != '\0')
+c = *(str + i);
+if (c != '\0')
 {
-_putchar('(*(str + i))');
+_putchar('c');
 }
 else
 {
