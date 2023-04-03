@@ -15,7 +15,7 @@ for (i = 0; i < 1000; i++)
 c = *(str + i);
 if (c != '\0')
 {
-_putchar('c');
+_putchar(c);
 }
 else
 {
