@@ -9,16 +9,15 @@
 void puts2(char *str)
 {
 int i;
-char c;
-for (i = 0; i < 1000; i + 2)
+int j = 0;
+while (str[j] != '\0')
 {
-c = *(str + i);
-if (c != '\0')
-{
-_putchar(c);
+j++;
 }
-else
-break;
+for (i = 0; i < j; i += 2)
+{
+_putchar(str[i]);
+}
 }
 _putchar('\n');
 }
