@@ -24,6 +24,6 @@ for (i = 0; i <= k; i++)
 {
 dest[j + i] = src[i];
 }
-return (rest);
+return (dest);
 }
 
