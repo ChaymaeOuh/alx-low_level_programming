@@ -14,7 +14,7 @@ int m = 1;
 int p = 0;
 while (s[c])
 {
-if (s[c] == 45
+if (s[c]) == 45
 {
 m *= -1;
 }
