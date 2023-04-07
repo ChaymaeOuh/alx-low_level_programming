@@ -14,7 +14,16 @@ while (str[j] != '\0')
 {
 j++;
 }
-for (i = j / 2; i < j; i++)
+if (j % 2 == 1)
+{
+i = (j - 1) / 2;
+i++;
+}
+else
+{
+i = j / 2;
+}
+for (; i < j; i++)
 {
 _putchar(str[i]);
 }
