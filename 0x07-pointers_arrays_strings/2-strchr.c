@@ -11,20 +11,14 @@
 char *_strchr(char *s, char c)
 {
 unsigned int i;
-unsigned int j = 0;
-char *p = NULL;
-while (s[j] != '\0')
-{
-j++;
-}
-for (i = 0; i < j; i++)
+
+for (i = 0; s[i] <= '\0'; i++)
 {
 if (s[i] == c)
 {
-*p = s[i];
-break;
+return (s + i);
 }
 }
-return (p);
+return (NULL);
 }
 
