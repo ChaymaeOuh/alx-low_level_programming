@@ -8,16 +8,18 @@
  */
 char *leet(char *s)
 {
-char *p = s;
-while (*p != '\0')
+int i, j;
+char input[] = "aAeEoOtTlL";
+char output[] = "4433007711";
+for (i = 0; n[i] != '\0'; i++)
 {
-char c = *p;
-*p++ = (c == 'a' || c == 'A') ? '4' :
-(c == 'e' || c == 'E') ? '3' :
-(c == 'o' || c == 'O') ? '0' :
-(c == 't' || c == 'T') ? '7' :
-(c == 'l' || c == 'L') ? '1' :
-c;
+for (j = 0; j < 10; j++)
+{
+if (s[i] == input[j])
+{
+n[i] = output[j];
+}
+}
 }
 return (s);
 }
