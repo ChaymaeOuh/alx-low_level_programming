@@ -45,5 +45,5 @@ return (0);
 if (i >= l)
 return (1);
 return (check_pal(s, i + 1, l - 1));
-
+}
 
