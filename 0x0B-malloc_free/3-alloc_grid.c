@@ -40,8 +40,8 @@ for (y = 0; y < width; y++)
 {
 p[x][y] = 0;
 }
+}
 
 return (p);
-}
 }
 
