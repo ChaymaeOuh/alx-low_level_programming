@@ -9,7 +9,8 @@
  *
  * Return: pointer to the resulting string
  */
-char *string_nconcat(char *s1, char *s2, int n)
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *s;
 unsigned int i = 0;
@@ -41,7 +42,7 @@ while (n < len2 && i < (len1 + n))
 s[i++] = s2[j++];
 
 while (n >= len2 && i < (len1 + len2))
-s[s++] = s2[j++];
+s[i++] = s2[j++];
 
 s[i] = '\0';
 
