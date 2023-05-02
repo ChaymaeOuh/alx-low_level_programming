@@ -78,7 +78,7 @@ for (index = 0; index < nodes; index++)
 {
 printf("[%p] %d\n", (void *)head, head->n);
 }
-
+}
 return (nodes);
 }
 
