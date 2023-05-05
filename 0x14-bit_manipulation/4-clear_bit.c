@@ -5,7 +5,7 @@
  * @n: pointer to number to change
  * @index: index of the bit to clear
  *
- * Retrun: 1(Success) -1(failure)
+ * Return: 1(Success) -1(failure)
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
