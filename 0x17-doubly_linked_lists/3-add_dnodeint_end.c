@@ -18,6 +18,9 @@ new = malloc(sizeof(dlistint_t));
 if (!new)
 return (NULL);
 
+new->n = n;
+new->next = NULL;
+
 if (*head == NULL)
 {
 *head = new;
@@ -27,8 +30,6 @@ return (new);
 while (tmp->next)
 tmp = tmp->next;
 
-new->n = n;
-new->next = NULL;
 new->prev = tmp;
 tmp->next = new;
 
